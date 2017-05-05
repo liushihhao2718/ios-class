@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C1276CB217A69120E610B1DB /* Pods_photo_wal.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4977E4B576B670D85E6920FF /* Pods_photo_wal.framework */; };
+		F52A06D0092BC4577D7172AA /* Pods_photo_wal_photo_walTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5885F5D2E0E8C06EC8031AC7 /* Pods_photo_wal_photo_walTests.framework */; };
 		FC0107DA1EBC6EEA00BDFFE1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FC0107D91EBC6EEA00BDFFE1 /* main.m */; };
 		FC0107DD1EBC6EEA00BDFFE1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FC0107DC1EBC6EEA00BDFFE1 /* AppDelegate.m */; };
 		FC0107E01EBC6EEA00BDFFE1 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FC0107DF1EBC6EEA00BDFFE1 /* ViewController.m */; };
@@ -28,6 +30,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0886167A5FFFAE6A587DDF15 /* Pods-photo-wal-photo-walTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-photo-wal-photo-walTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-photo-wal-photo-walTests/Pods-photo-wal-photo-walTests.debug.xcconfig"; sourceTree = "<group>"; };
+		1B3D9729E36CA8E2D5B24B9F /* Pods-photo-wal.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-photo-wal.debug.xcconfig"; path = "Pods/Target Support Files/Pods-photo-wal/Pods-photo-wal.debug.xcconfig"; sourceTree = "<group>"; };
+		271AD0283D2612F423A8325B /* Pods-photo-wal-photo-walTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-photo-wal-photo-walTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-photo-wal-photo-walTests/Pods-photo-wal-photo-walTests.release.xcconfig"; sourceTree = "<group>"; };
+		4977E4B576B670D85E6920FF /* Pods_photo_wal.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_photo_wal.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5885F5D2E0E8C06EC8031AC7 /* Pods_photo_wal_photo_walTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_photo_wal_photo_walTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC6AA9D33032CAB4C1AB083E /* Pods-photo-wal.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-photo-wal.release.xcconfig"; path = "Pods/Target Support Files/Pods-photo-wal/Pods-photo-wal.release.xcconfig"; sourceTree = "<group>"; };
 		FC0107D51EBC6EEA00BDFFE1 /* photo-wal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "photo-wal.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FC0107D91EBC6EEA00BDFFE1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		FC0107DB1EBC6EEA00BDFFE1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -49,6 +57,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C1276CB217A69120E610B1DB /* Pods_photo_wal.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -56,18 +65,41 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F52A06D0092BC4577D7172AA /* Pods_photo_wal_photo_walTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		00B8F5344629D575DD5C3B40 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4977E4B576B670D85E6920FF /* Pods_photo_wal.framework */,
+				5885F5D2E0E8C06EC8031AC7 /* Pods_photo_wal_photo_walTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		08BCFFB0E3850F652B5ED1F7 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1B3D9729E36CA8E2D5B24B9F /* Pods-photo-wal.debug.xcconfig */,
+				EC6AA9D33032CAB4C1AB083E /* Pods-photo-wal.release.xcconfig */,
+				0886167A5FFFAE6A587DDF15 /* Pods-photo-wal-photo-walTests.debug.xcconfig */,
+				271AD0283D2612F423A8325B /* Pods-photo-wal-photo-walTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		FC0107CC1EBC6EEA00BDFFE1 = {
 			isa = PBXGroup;
 			children = (
 				FC0107D71EBC6EEA00BDFFE1 /* photo-wal */,
 				FC0107F41EBC6EEA00BDFFE1 /* photo-walTests */,
 				FC0107D61EBC6EEA00BDFFE1 /* Products */,
+				08BCFFB0E3850F652B5ED1F7 /* Pods */,
+				00B8F5344629D575DD5C3B40 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -121,9 +153,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = FC0107FA1EBC6EEA00BDFFE1 /* Build configuration list for PBXNativeTarget "photo-wal" */;
 			buildPhases = (
+				940B09C2ED147160447DE2BB /* [CP] Check Pods Manifest.lock */,
 				FC0107D11EBC6EEA00BDFFE1 /* Sources */,
 				FC0107D21EBC6EEA00BDFFE1 /* Frameworks */,
 				FC0107D31EBC6EEA00BDFFE1 /* Resources */,
+				1E602716D61F765291925529 /* [CP] Embed Pods Frameworks */,
+				917A9B1B6AB45103B01F2646 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -138,9 +173,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = FC0107FD1EBC6EEA00BDFFE1 /* Build configuration list for PBXNativeTarget "photo-walTests" */;
 			buildPhases = (
+				A63D92C27F424B0EB8A57D16 /* [CP] Check Pods Manifest.lock */,
 				FC0107ED1EBC6EEA00BDFFE1 /* Sources */,
 				FC0107EE1EBC6EEA00BDFFE1 /* Frameworks */,
 				FC0107EF1EBC6EEA00BDFFE1 /* Resources */,
+				D153F0635660AE7E81B41806 /* [CP] Embed Pods Frameworks */,
+				8C42C3F97472078D958306DA /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -212,6 +250,99 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1E602716D61F765291925529 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-photo-wal/Pods-photo-wal-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8C42C3F97472078D958306DA /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-photo-wal-photo-walTests/Pods-photo-wal-photo-walTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		917A9B1B6AB45103B01F2646 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-photo-wal/Pods-photo-wal-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		940B09C2ED147160447DE2BB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		A63D92C27F424B0EB8A57D16 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		D153F0635660AE7E81B41806 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-photo-wal-photo-walTests/Pods-photo-wal-photo-walTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		FC0107D11EBC6EEA00BDFFE1 /* Sources */ = {
@@ -355,6 +486,7 @@
 		};
 		FC0107FB1EBC6EEA00BDFFE1 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1B3D9729E36CA8E2D5B24B9F /* Pods-photo-wal.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 9J8LMHVFBZ;
@@ -367,6 +499,7 @@
 		};
 		FC0107FC1EBC6EEA00BDFFE1 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EC6AA9D33032CAB4C1AB083E /* Pods-photo-wal.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 9J8LMHVFBZ;
@@ -379,6 +512,7 @@
 		};
 		FC0107FE1EBC6EEA00BDFFE1 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0886167A5FFFAE6A587DDF15 /* Pods-photo-wal-photo-walTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				DEVELOPMENT_TEAM = 9J8LMHVFBZ;
@@ -392,6 +526,7 @@
 		};
 		FC0107FF1EBC6EEA00BDFFE1 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 271AD0283D2612F423A8325B /* Pods-photo-wal-photo-walTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				DEVELOPMENT_TEAM = 9J8LMHVFBZ;

@@ -1,13 +1,13 @@
 platform :ios, '8.0'
 use_frameworks!
 
-target 'photowall' do
+target 'photo-wal' do
     pod 'NitroKeychain'
     pod 'AFNetworking'
     pod 'MagicalRecord'
 	pod 'SDWebImage'
 
-    target 'photowallTests' do
+    target 'photo-walTests' do
         pod 'Nocilla'
         pod 'OCMock'
     end
