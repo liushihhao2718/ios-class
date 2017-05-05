@@ -4,7 +4,7 @@ xcode_workspace: photo-wal.xcworkspace
 xcode_scheme: photo-wal
 
 script:
-  - xcodebuild -scheme photo-wal -workspace photo-wal.xcworkspace -sdk iphonesimulator -destination 'platform=iOS Simulator,name=iPhone 6s,OS=10.0' build test
+  - xcodebuild -scheme photo-wal -workspace photo-wal.xcworkspace -sdk iphonesimulator -destination 'platform=iOS Simulator,name=iPhone 6s,OS=10.3' build test
 
 after_success:
   - bash <(curl -s https://codecov.io/bash)
