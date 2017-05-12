@@ -21,6 +21,9 @@
 		FC9A695F1EC59A2700396C5E /* RestRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = FC9A695E1EC59A2700396C5E /* RestRequest.m */; };
 		FC9A69621EC59CA300396C5E /* RestResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = FC9A69611EC59CA300396C5E /* RestResponse.m */; };
 		FC9A69671EC5A85D00396C5E /* RestRequestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FC9A69661EC5A85D00396C5E /* RestRequestTests.m */; };
+		FC9A69691EC5AE2300396C5E /* MaskView.xib in Resources */ = {isa = PBXBuildFile; fileRef = FC9A69681EC5AE2300396C5E /* MaskView.xib */; };
+		FC9A696D1EC5B02F00396C5E /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FC9A696B1EC5B02F00396C5E /* LoginViewController.m */; };
+		FC9A696E1EC5B02F00396C5E /* LoginView.xib in Resources */ = {isa = PBXBuildFile; fileRef = FC9A696C1EC5B02F00396C5E /* LoginView.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -61,6 +64,10 @@
 		FC9A69601EC59CA300396C5E /* RestResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RestResponse.h; path = RestClient/RestResponse.h; sourceTree = "<group>"; };
 		FC9A69611EC59CA300396C5E /* RestResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RestResponse.m; path = RestClient/RestResponse.m; sourceTree = "<group>"; };
 		FC9A69661EC5A85D00396C5E /* RestRequestTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RestRequestTests.m; path = RestClient/RestRequestTests.m; sourceTree = "<group>"; };
+		FC9A69681EC5AE2300396C5E /* MaskView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = MaskView.xib; path = View/MaskView.xib; sourceTree = "<group>"; };
+		FC9A696A1EC5B02F00396C5E /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LoginViewController.h; path = View/LoginViewController.h; sourceTree = "<group>"; };
+		FC9A696B1EC5B02F00396C5E /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LoginViewController.m; path = View/LoginViewController.m; sourceTree = "<group>"; };
+		FC9A696C1EC5B02F00396C5E /* LoginView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = LoginView.xib; path = View/LoginView.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -173,6 +180,10 @@
 		FC9A69581EC5989D00396C5E /* View */ = {
 			isa = PBXGroup;
 			children = (
+				FC9A69681EC5AE2300396C5E /* MaskView.xib */,
+				FC9A696A1EC5B02F00396C5E /* LoginViewController.h */,
+				FC9A696B1EC5B02F00396C5E /* LoginViewController.m */,
+				FC9A696C1EC5B02F00396C5E /* LoginView.xib */,
 			);
 			name = View;
 			sourceTree = "<group>";
@@ -302,6 +313,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FC9A696E1EC5B02F00396C5E /* LoginView.xib in Resources */,
+				FC9A69691EC5AE2300396C5E /* MaskView.xib in Resources */,
 				FC0107EB1EBC6EEA00BDFFE1 /* LaunchScreen.storyboard in Resources */,
 				FC0107E81EBC6EEA00BDFFE1 /* Assets.xcassets in Resources */,
 				FC0107E31EBC6EEA00BDFFE1 /* Main.storyboard in Resources */,
@@ -415,6 +428,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FC9A696D1EC5B02F00396C5E /* LoginViewController.m in Sources */,
 				FC0107E01EBC6EEA00BDFFE1 /* ViewController.m in Sources */,
 				FC9A695F1EC59A2700396C5E /* RestRequest.m in Sources */,
 				FC9A69621EC59CA300396C5E /* RestResponse.m in Sources */,
