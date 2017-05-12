@@ -17,6 +17,10 @@
 		FC0107E81EBC6EEA00BDFFE1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FC0107E71EBC6EEA00BDFFE1 /* Assets.xcassets */; };
 		FC0107EB1EBC6EEA00BDFFE1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FC0107E91EBC6EEA00BDFFE1 /* LaunchScreen.storyboard */; };
 		FC0107F61EBC6EEA00BDFFE1 /* photo_walTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FC0107F51EBC6EEA00BDFFE1 /* photo_walTests.m */; };
+		FC9A695C1EC5994E00396C5E /* RestClient.m in Sources */ = {isa = PBXBuildFile; fileRef = FC9A695B1EC5994E00396C5E /* RestClient.m */; };
+		FC9A695F1EC59A2700396C5E /* RestRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = FC9A695E1EC59A2700396C5E /* RestRequest.m */; };
+		FC9A69621EC59CA300396C5E /* RestResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = FC9A69611EC59CA300396C5E /* RestResponse.m */; };
+		FC9A69671EC5A85D00396C5E /* RestRequestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FC9A69661EC5A85D00396C5E /* RestRequestTests.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,6 +54,13 @@
 		FC0107F11EBC6EEA00BDFFE1 /* photo-walTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "photo-walTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FC0107F51EBC6EEA00BDFFE1 /* photo_walTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = photo_walTests.m; sourceTree = "<group>"; };
 		FC0107F71EBC6EEA00BDFFE1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FC9A695A1EC5994E00396C5E /* RestClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RestClient.h; path = RestClient/RestClient.h; sourceTree = "<group>"; };
+		FC9A695B1EC5994E00396C5E /* RestClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RestClient.m; path = RestClient/RestClient.m; sourceTree = "<group>"; };
+		FC9A695D1EC59A2700396C5E /* RestRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RestRequest.h; path = RestClient/RestRequest.h; sourceTree = "<group>"; };
+		FC9A695E1EC59A2700396C5E /* RestRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RestRequest.m; path = RestClient/RestRequest.m; sourceTree = "<group>"; };
+		FC9A69601EC59CA300396C5E /* RestResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RestResponse.h; path = RestClient/RestResponse.h; sourceTree = "<group>"; };
+		FC9A69611EC59CA300396C5E /* RestResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RestResponse.m; path = RestClient/RestResponse.m; sourceTree = "<group>"; };
+		FC9A69661EC5A85D00396C5E /* RestRequestTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RestRequestTests.m; path = RestClient/RestRequestTests.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,6 +126,9 @@
 		FC0107D71EBC6EEA00BDFFE1 /* photo-wal */ = {
 			isa = PBXGroup;
 			children = (
+				FC9A69591EC598A400396C5E /* RestClient */,
+				FC9A69581EC5989D00396C5E /* View */,
+				FC9A69571EC5988900396C5E /* Model */,
 				FC0107DB1EBC6EEA00BDFFE1 /* AppDelegate.h */,
 				FC0107DC1EBC6EEA00BDFFE1 /* AppDelegate.m */,
 				FC0107DE1EBC6EEA00BDFFE1 /* ViewController.h */,
@@ -140,10 +154,62 @@
 		FC0107F41EBC6EEA00BDFFE1 /* photo-walTests */ = {
 			isa = PBXGroup;
 			children = (
+				FC9A69651EC5A7E400396C5E /* Model */,
+				FC9A69641EC5A7DD00396C5E /* View */,
+				FC9A69631EC5A7D400396C5E /* RestClient */,
 				FC0107F51EBC6EEA00BDFFE1 /* photo_walTests.m */,
 				FC0107F71EBC6EEA00BDFFE1 /* Info.plist */,
 			);
 			path = "photo-walTests";
+			sourceTree = "<group>";
+		};
+		FC9A69571EC5988900396C5E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		FC9A69581EC5989D00396C5E /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		FC9A69591EC598A400396C5E /* RestClient */ = {
+			isa = PBXGroup;
+			children = (
+				FC9A695A1EC5994E00396C5E /* RestClient.h */,
+				FC9A695B1EC5994E00396C5E /* RestClient.m */,
+				FC9A695D1EC59A2700396C5E /* RestRequest.h */,
+				FC9A695E1EC59A2700396C5E /* RestRequest.m */,
+				FC9A69601EC59CA300396C5E /* RestResponse.h */,
+				FC9A69611EC59CA300396C5E /* RestResponse.m */,
+			);
+			name = RestClient;
+			sourceTree = "<group>";
+		};
+		FC9A69631EC5A7D400396C5E /* RestClient */ = {
+			isa = PBXGroup;
+			children = (
+				FC9A69661EC5A85D00396C5E /* RestRequestTests.m */,
+			);
+			name = RestClient;
+			sourceTree = "<group>";
+		};
+		FC9A69641EC5A7DD00396C5E /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		FC9A69651EC5A7E400396C5E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -350,8 +416,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				FC0107E01EBC6EEA00BDFFE1 /* ViewController.m in Sources */,
+				FC9A695F1EC59A2700396C5E /* RestRequest.m in Sources */,
+				FC9A69621EC59CA300396C5E /* RestResponse.m in Sources */,
 				FC0107DD1EBC6EEA00BDFFE1 /* AppDelegate.m in Sources */,
 				FC0107DA1EBC6EEA00BDFFE1 /* main.m in Sources */,
+				FC9A695C1EC5994E00396C5E /* RestClient.m in Sources */,
 				FC0107E61EBC6EEA00BDFFE1 /* photo_wal.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -361,6 +430,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FC0107F61EBC6EEA00BDFFE1 /* photo_walTests.m in Sources */,
+				FC9A69671EC5A85D00396C5E /* RestRequestTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -557,6 +627,7 @@
 				FC0107FC1EBC6EEA00BDFFE1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FC0107FD1EBC6EEA00BDFFE1 /* Build configuration list for PBXNativeTarget "photo-walTests" */ = {
 			isa = XCConfigurationList;
@@ -565,6 +636,7 @@
 				FC0107FF1EBC6EEA00BDFFE1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
